@@ -1,0 +1,40 @@
+html {
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(32, 39, 72);
+}
+
+.hello {
+  color: bisque;
+  margin-top: 55px;
+}
+
+.media {
+  display: block;
+  margin: 25px auto;
+  width: 105px;
+  height: auto;
+  animation: rotate 3s linear infinite;
+}
+
+code {
+  display: block;
+  color: rgb(110, 70, 147);
+  text-transform: capitalize;
+  font-size: large;
+}
+
+code a {
+  color: rgb(110, 70, 147);
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
