@@ -1,75 +1,65 @@
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# LeaderBoard
 
-> Description the project.
+> A JavaScript project for the Leaderboard list app, using webpack and ES6 features, this is a requirement for Micronauts in Module 2 block 4. This project is MIT Licensed
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML and CSS 
+- Javascript ES6
+- Webpack
+- HtmlWebpackPlugin
+- GitFlow
 
-## Live Demo (if available)
+## How to use and run this project
+>To get a local copy up and running follow these simple example steps.
 
-[Live Demo Link](https://livedemo.com)
+-Clone this repository with
 
+<code> git clone git@github.com:aceDavon/LeaderBoard.git </code>
+using your terminal or command line.
 
-## Getting Started
+-Change to the project directory by entering :
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+<code>cd LeaderBoard</code>, in the terminal.
 
-
-To get a local copy up and running follow these simple example steps.
-
+-run code to open it in vscode.
+However, there are some project requisites required for this project to run properly 
 ### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+- This project makes use of bundler called 'Webpack' which manages all the dependencies and files for this project.
+- To install it, follow this:
+- Locate to the directory of the project
+- In the terminal, <code>npm init -y</code> to initialise the package manager
+- Again, in the terminal, <code> npm install </code> to install everything.
 
 
+## Project Status
+This project is still under development.
+
+## Issues
+
+Up to now, there are no issues with it.
+
+Here is the link to the Issues tab:
+
+https://github.com/acedavon/LeaderBoard/issues
 
 ## Authors
 
-👤 **Author1**
+👤 Elijah Andre
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
+- GitHub: [@aceDavon](https://github.com/acedavon)
+- LinkedIn: [Makoji David](https://www.linkedin.com/in/david-makoji-b6090971/)
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+- Microverse
+- Inpiration
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+Thanks to everyone who helped me.
