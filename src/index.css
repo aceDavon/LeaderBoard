@@ -94,6 +94,7 @@ form button {
 .main-right h3 {
   margin-left: 32px;
 }
+
 @media screen and (min-width: 767px) {
   .main-area {
     flex-direction: row;

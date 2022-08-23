@@ -8,7 +8,6 @@ function component() {
 
   dataEntry.appendChild(Table());
   entry.appendChild(Form());
-
 }
 
 component();
