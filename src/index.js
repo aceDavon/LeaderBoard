@@ -1,27 +1,13 @@
+import Form from './components/Form';
+import Table from './components/Table';
 import './index.css';
-import Icon from './img/icon-pwa.png';
 
 function component() {
-  const el = document.getElementById('entry');
-  const element = document.createElement('div');
-  const media = document.createElement('img');
-  const code = document.createElement('code');
-  const link = document.createElement('a');
-  link.href = 'https://webpack.org';
-  link.target = '_blank';
-  link.innerText = 'official Website documentation';
+  const dataEntry = document.getElementById('data_point');
+  const entry = document.getElementById('data_input');
 
-  element.innerHTML = 'Hello There, This is webpack!!!';
-  element.classList.add('hello');
-  media.classList.add('media');
-  el.appendChild(element);
-  media.src = Icon;
-  code.innerText = 'to learn more, visit the ';
-  code.appendChild(link);
-  el.appendChild(media);
-  el.appendChild(code);
-
-  return el;
+  dataEntry.appendChild(Table());
+  entry.appendChild(Form());
 }
 
-document.body.appendChild(component());
+component();
