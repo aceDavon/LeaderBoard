@@ -1,4 +1,4 @@
-import ID from './gameData';
+import ID from './gameData.js';
 
 const baseUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
 

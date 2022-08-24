@@ -1,4 +1,4 @@
-import { getData } from '../data/createGames';
+import { getData } from '../data/createGames.js';
 
 const Table = () => {
   const dataEntry = document.getElementById('data_point');
@@ -14,7 +14,7 @@ const Table = () => {
           <td>${obj.user}</td>
           <td>${obj.score}</td>
         `;
-      tbody.appendChild(row);
+      return tbody.appendChild(row);
     });
   });
 

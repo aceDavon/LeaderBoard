@@ -1,6 +1,6 @@
-import Form from './components/Form';
-import Table from './components/Table';
-import { refresh } from './data/createGames';
+import Form from './components/Form.js';
+import Table from './components/Table.js';
+import { refresh } from './data/createGames.js';
 import './index.css';
 
 // const createGame = async () => {

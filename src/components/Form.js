@@ -1,4 +1,4 @@
-import { handleForm } from '../data/createGames';
+import { handleForm } from '../data/createGames.js';
 
 const Form = () => {
   const form = document.createElement('form');
