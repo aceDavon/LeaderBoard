@@ -17,7 +17,7 @@ export const handleForm = async (e, values) => {
   }).then((Response) => Response.json());
 };
 
-export const refresh = () => window.location.reload()
+export const refresh = () => window.location.reload();
 
 export const getData = async () => {
   const data = await fetch(`${baseUrl}games/${ID}/scores`);
