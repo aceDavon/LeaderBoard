@@ -1,11 +1,11 @@
-import { getData, handleForm } from '../data/createGames';
+import { handleForm } from '../data/createGames';
 
 const Form = () => {
   const form = document.createElement('form');
   const name = document.createElement('input');
   const score = document.createElement('input');
   const btn = document.createElement('button');
-  const values = {name: name, score: score}
+  const values = { name, score };
   btn.setAttribute('type', 'button');
   btn.innerText = 'Submit';
   btn.addEventListener('click', (e) => handleForm(e, values));

@@ -9,12 +9,12 @@ const Table = () => {
   data.then((x) => {
     const arr = x.result;
     arr.map((obj) => {
-      const row = document.createElement('tr')
+      const row = document.createElement('tr');
       row.innerHTML += `
           <td>${obj.user}</td>
           <td>${obj.score}</td>
-        `
-      tbody.appendChild(row)
+        `;
+      tbody.appendChild(row);
     });
   });
 

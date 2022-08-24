@@ -1,1 +1,3 @@
-export const ID = 'Frg7UHGSqJIiPKiZWVNs';
+const ID = 'u6GqR1awqNtU1bGqIFFj';
+
+export default ID;

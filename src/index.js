@@ -1,5 +1,6 @@
 import Form from './components/Form';
 import Table from './components/Table';
+import { refresh } from './data/createGames';
 import './index.css';
 
 // const createGame = async () => {
@@ -20,12 +21,13 @@ import './index.css';
 //     .catch((err) => console.log(err.message));
 // };
 
-export const gameID = 'Frg7UHGSqJIiPKiZWVNs';
+// createGame()
 
 function component() {
   const entry = document.getElementById('data_input');
   const refBtn = document.getElementById('refresh');
-  refBtn.addEventListener('click', () => Table());
+  refBtn.addEventListener('click', () => refresh());
+  Table();
 
   entry.appendChild(Form());
 }

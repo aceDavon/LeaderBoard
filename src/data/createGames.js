@@ -1,13 +1,11 @@
-import axios from 'axios';
-import { ID } from './gameData';
+import ID from './gameData';
 
-const baseUrl =
-  'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
+const baseUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
 
 export const handleForm = async (e, values) => {
   e.preventDefault();
   const { name, score } = values;
-  const data = await fetch(`${baseUrl}games/${ID}/scores`, {
+  await fetch(`${baseUrl}games/${ID}/scores`, {
     method: 'POST',
     body: JSON.stringify({
       user: name.value,
@@ -17,13 +15,12 @@ export const handleForm = async (e, values) => {
       'content-type': 'Application/json; charset=UTF-8',
     },
   }).then((Response) => Response.json());
-
-  console.log(data);
 };
 
-export const getData = async () => {
-  const data = await fetch(`${baseUrl}games/${ID}/scores`)
-  const res = await data.json()
+export const refresh = () => window.location.reload()
 
+export const getData = async () => {
+  const data = await fetch(`${baseUrl}games/${ID}/scores`);
+  const res = await data.json();
   return res;
 };
