@@ -73,3 +73,6 @@ Give a ⭐️ if you like this project!
 - Inpiration
 
 Thanks to everyone who helped me.
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
