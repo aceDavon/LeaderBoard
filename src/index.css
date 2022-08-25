@@ -12,6 +12,11 @@ html {
   transition-duration: 0.25s;
 }
 
+body {
+  background-image: url('./img/best-pc-games-horizon-zero-dawn.jpg');
+  background-position: center;
+}
+
 main {
   width: 85%;
   margin: 45px auto;
@@ -28,6 +33,11 @@ main,
   gap: 8px;
 }
 
+h1, h3 {
+  color: white;
+  text-shadow: 2px 2px 3px rgba(34, 33, 33, 0.481);
+}
+
 .main-action {
   flex-direction: row;
   justify-content: space-between;
@@ -41,6 +51,9 @@ form button {
   box-shadow: 2px 2px 3px rgba(90, 88, 88, 0.548);
   border-radius: 6px;
   cursor: pointer;
+  background-color: #39b0aaa7;
+  color: white;
+  border: 2px solid white;
 }
 
 .data {
@@ -50,9 +63,12 @@ form button {
 }
 
 table {
-  border: 2px solid black;
+  border: 2px solid #39b0aaa7;
   box-shadow: 2px 2px 3px rgba(90, 88, 88, 0.548);
   width: 100%;
+  color: white;
+  background: rgba(140, 134, 134, 0.481);
+  border-radius: 8px;
 }
 
 .data tr {
@@ -62,7 +78,7 @@ table {
 }
 
 .data tr:nth-child(even) {
-  background-color: #dedede;
+  background-color: #39b0aaa7;
 }
 
 .data td {
@@ -79,6 +95,14 @@ table {
 form input {
   width: 85%;
   padding: 8px 3px;
+  background-color: rgba(255, 255, 255, 0.208);
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+form input:focus,
+form input:active {
+  outline: none;
 }
 
 form button {
