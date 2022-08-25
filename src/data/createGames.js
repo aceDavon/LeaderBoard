@@ -15,6 +15,9 @@ export const handleForm = async (e, values) => {
       'content-type': 'Application/json; charset=UTF-8',
     },
   }).then((Response) => Response.json());
+  alert('Data saved! Refresh to see Scores');
+  name.value = '';
+  score.value = '';
 };
 
 export const refresh = () => window.location.reload();

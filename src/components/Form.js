@@ -4,6 +4,8 @@ const Form = () => {
   const form = document.createElement('form');
   const name = document.createElement('input');
   const score = document.createElement('input');
+  name.setAttribute('placeholder', 'Enter your name');
+  score.setAttribute('placeholder', 'Enter score');
   const btn = document.createElement('button');
   const values = { name, score };
   btn.setAttribute('type', 'button');

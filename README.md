@@ -14,6 +14,16 @@
 - HtmlWebpackPlugin
 - GitFlow
 
+## Project Mockup
+
+> Devices
+
+![](./src/img/mockup/all-devices-black.png)
+
+> Mobile 
+
+![](./src//img/mockup/mobile-white.png)
+
 ## How to use and run this project
 >To get a local copy up and running follow these simple example steps.
 
@@ -49,7 +59,7 @@ https://github.com/acedavon/LeaderBoard/issues
 
 ## Authors
 
-👤 Elijah Andre
+👤 Onate Makoji
 
 - GitHub: [@aceDavon](https://github.com/acedavon)
 - LinkedIn: [Makoji David](https://www.linkedin.com/in/david-makoji-b6090971/)
@@ -63,3 +73,6 @@ Give a ⭐️ if you like this project!
 - Inpiration
 
 Thanks to everyone who helped me.
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
