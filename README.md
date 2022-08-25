@@ -59,7 +59,7 @@ https://github.com/acedavon/LeaderBoard/issues
 
 ## Authors
 
-👤 Elijah Andre
+👤 Onate Makoji
 
 - GitHub: [@aceDavon](https://github.com/acedavon)
 - LinkedIn: [Makoji David](https://www.linkedin.com/in/david-makoji-b6090971/)
