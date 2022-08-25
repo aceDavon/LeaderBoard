@@ -14,6 +14,16 @@
 - HtmlWebpackPlugin
 - GitFlow
 
+## Project Mockup
+
+> Devices
+
+![](./src/img/mockup/all-devices-black.png)
+
+> Mobile 
+
+![](./src//img/mockup/mobile-white.png)
+
 ## How to use and run this project
 >To get a local copy up and running follow these simple example steps.
 

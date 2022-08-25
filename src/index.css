@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  background: linear-gradient(to bottom,rgba(164, 162, 163, 0.394), rgba(164, 162, 163, 0.394)),url('./img/best-pc-games-horizon-zero-dawn.jpg');
+  background: linear-gradient(to bottom, rgba(164, 162, 163, 0.394), rgba(164, 162, 163, 0.394)), url('./img/best-pc-games-horizon-zero-dawn.jpg');
   background-position: center;
 }
 
@@ -33,7 +33,8 @@ main,
   gap: 8px;
 }
 
-h1, h3 {
+h1,
+h3 {
   color: white;
   text-shadow: 2px 2px 3px rgba(34, 33, 33, 0.481);
 }

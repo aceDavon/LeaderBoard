@@ -1,7 +1,6 @@
 import ID from './gameData.js';
 
-const baseUrl =
-  'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
+const baseUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
 
 export const handleForm = async (e, values) => {
   e.preventDefault();
@@ -19,7 +18,6 @@ export const handleForm = async (e, values) => {
   alert('Data saved! Refresh to see Scores');
   name.value = '';
   score.value = '';
-  return;
 };
 
 export const refresh = () => window.location.reload();
