@@ -14,6 +14,10 @@
 - HtmlWebpackPlugin
 - GitFlow
 
+## Live URL
+
+[deployment](https://acedavon.github.io/LeaderBoard)
+
 ## Project Mockup
 
 > Devices
