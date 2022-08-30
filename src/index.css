@@ -145,10 +145,16 @@ footer {
   color: #fffdfd;
 }
 
-footer span {
+.copyright {
+  display: inline;
   color: red;
   font-weight: 600;
   cursor: pointer;
+  transition: all 0.45s ease-out;
+}
+
+.copyright:hover {
+  font-size: larger;
 }
 
 @media screen and (min-width: 767px) {
