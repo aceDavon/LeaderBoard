@@ -37,6 +37,11 @@ h1,
 h3 {
   color: white;
   text-shadow: 2px 2px 3px rgba(34, 33, 33, 0.481);
+  transition: all 0.85s ease;
+}
+
+h1:hover {
+  translate: 12%;
 }
 
 .main-action {
@@ -55,6 +60,7 @@ form button {
   background-color: #39b0aaa7;
   color: white;
   border: 2px solid white;
+  transition: all 0.45s ease-in-out;
 }
 
 .data {
@@ -76,6 +82,12 @@ table {
   width: 100%;
   display: flex;
   gap: 12px;
+  transition: all 0.4s ease-in-out;
+}
+
+.data tr:hover {
+  transform: scale(1.15);
+  font-size: xx-large;
 }
 
 .data tr:nth-child(even) {
@@ -110,6 +122,11 @@ form button {
   width: 16%;
   align-self: flex-end;
   margin-right: 32px;
+}
+
+.reset-btn:hover,
+form button:hover {
+  transform: scale(0.85);
 }
 
 .main-right {
