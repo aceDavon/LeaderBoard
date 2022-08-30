@@ -19,7 +19,7 @@ body {
 
 main {
   width: 85%;
-  margin: 45px auto;
+  margin: 45px auto 100px;
 }
 
 main,
@@ -135,6 +135,20 @@ form button:hover {
 
 .main-right h3 {
   margin-left: 32px;
+}
+
+footer {
+  background: linear-gradient(to right, #39b0aaa7 0%, #fffdfd 60%);
+  padding: 8px 4px 8px 85px;
+  position: relative;
+  bottom: 0;
+  color: #fffdfd;
+}
+
+footer span {
+  color: red;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 767px) {
