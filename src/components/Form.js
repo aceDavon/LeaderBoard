@@ -1,11 +1,22 @@
+import { handleForm } from '../data/createGames.js';
+
 const Form = () => {
   const form = document.createElement('form');
+  const name = document.createElement('input');
+  const score = document.createElement('input');
+  name.setAttribute('placeholder', 'Enter your name');
+  score.setAttribute('placeholder', 'Enter score');
+  const btn = document.createElement('button');
+  const values = { name, score };
+  btn.setAttribute('type', 'button');
+  btn.innerText = 'Submit';
+  btn.addEventListener('click', (e) => handleForm(e, values));
+  name.setAttribute('id', 'name');
+  score.setAttribute('id', 'score');
 
-  form.innerHTML = `
-  <input type="text" name="name" placeholder="Your name" />
-  <input type="text" name="score" placeholder="Your score" />
-  <button type="button">Submit</button>
-  `;
+  form.appendChild(name);
+  form.appendChild(score);
+  form.appendChild(btn);
 
   return form;
 };

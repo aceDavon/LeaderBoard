@@ -14,6 +14,20 @@
 - HtmlWebpackPlugin
 - GitFlow
 
+## Live URL
+
+[deployment](https://acedavon.github.io/LeaderBoard)
+
+## Project Mockup
+
+> Devices
+
+![](./src/img/mockup/all-devices-black.png)
+
+> Mobile 
+
+![](./src//img/mockup/mobile-white.png)
+
 ## How to use and run this project
 >To get a local copy up and running follow these simple example steps.
 
@@ -70,3 +84,6 @@ Give a ⭐️ if you like this project!
 - Inpiration
 
 Thanks to everyone who helped me.
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.

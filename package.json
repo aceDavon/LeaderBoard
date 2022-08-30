@@ -1,17 +1,19 @@
 {
-  "name": "webpack-intro",
+  "name": "leaderboard",
   "version": "1.0.0",
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "main": "index.js",
+  "homepage": "https://acedavon.github.io/LeaderBoard",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --mode development",
     "build": "webpack",
-    "start": "webpack serve --open"
+    "start": "webpack serve --open",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aceDavon/Webpack-intro.git"
+    "url": "git+https://github.com/aceDavon/LeaderBoard.git"
   },
   "keywords": [],
   "author": "",
@@ -19,13 +21,13 @@
   "bugs": {
     "url": "https://github.com/aceDavon/Webpack-intro/issues"
   },
-  "homepage": "https://github.com/aceDavon/Webpack-intro#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.1",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.26.0",
+    "gh-pages": "^4.0.0",
     "hint": "^7.1.1",
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
@@ -36,5 +38,8 @@
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.9.3"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
   }
 }
